@@ -1,0 +1,63 @@
+.button {
+  width:max-content;
+  margin: 20px;
+  padding: 10px 15px 10px  15px;
+  font-size: 18pt;
+  font-family: arial, sans-serif;
+  border-radius: 10px;
+}
+.button:hover {
+  filter: brightness(0.7);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75) inset;
+}
+.button:active {
+  filter: brightness(0.6);
+}
+ .primary {
+  background-color: blue;
+  color: white;
+ }
+.primary-unobtrusive {
+  color: blue;
+  border: 1px solid blue;
+}
+.secondary {
+  background-color: gray;
+  color: white;
+}
+.secondary-unobtrusive {
+  color: gray;
+  border: 1px solid gray;
+}
+.success {
+  background-color: green;
+  color: white;
+}
+.success-unobtrusive {
+  color: green;
+  border: 1px solid green;
+}
+.danger {
+  color: white;
+  background-color: red;
+}
+.danger-unobtrusive{
+  color: red;
+  border: 1px solid red;
+}
+.warning {
+  background-color:gold;
+}
+.warning-unobtrusive {
+  color: gold;
+  border: 1px solid gold;
+}
+.info {
+  background-color: cyan;
+}
+.info-unobtrusive {
+  color: cyan;
+  border: 1px solid cyan;
+}
